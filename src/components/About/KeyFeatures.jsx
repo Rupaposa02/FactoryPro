@@ -2,7 +2,7 @@ import React from 'react';
 import './KeyFeatures.css';
 
 import aboutLogo from '../../assets/AboutLogo.png';
-import keyfeatureicon1 from '../../assets/keyFeatureIcon1.png';
+import keyfeatureicon1 from '../../assets/KeyFeatureIcon1.png';
 import keyfeatureicon2 from '../../assets/KeyFeatureIcon2.png';
 import keyfeatureicon3 from '../../assets/KeyFeatureIcon3.png';
 import featureBoxImg from '../../assets/FeatureGrinding.png';
