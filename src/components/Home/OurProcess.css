@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+.our-process-section {
+  width: 100%;
+  background-color: #f7f8fa;
+  font-family: 'Manrope', sans-serif;
+  padding: 100px 0 120px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.our-process-container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.process-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.process-header-left {
+  width: 610px;
+}
+
+.process-tagline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.process-tag-icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.process-tagline span {
+  font-size: 13px;
+  font-weight: 700;
+  color: #1f242e;
+  letter-spacing: 1.5px;
+}
+
+.process-heading {
+  font-size: 46px;
+  line-height: 1.15;
+  color: #1a1e26;
+  margin: 0;
+}
+
+.process-heading .heading-light {
+  font-weight: 300;
+  letter-spacing: -0.5px;
+}
+
+.process-heading .heading-bold {
+  font-weight: 700;
+  letter-spacing: -0.8px;
+}
+
+.process-header-right {
+  max-width: 490px;
+  padding-top: 36px;
+}
+
+.process-desc {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27.2px;
+  letter-spacing: 0%;
+  color: #6b7280;
+}
+
+.process-body-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.process-image-box {
+  width: 595px;
+  height: 553.34px;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.07);
+  flex-shrink: 0;
+}
+
+.process-main-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.process-steps-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex: 1;
+  max-width: 625px;
+}
+
+.step-card {
+  width: 625px;
+  height: 148.38px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 45px;
+  gap: 30px;
+  box-sizing: border-box;
+  transition: transform 0.25s ease;
+}
+
+.step-card.step-default {
+  background-color: transparent;
+}
+
+.step-card.step-default .step-badge-number {
+  font-size: 48px;
+  font-weight: 800;
+  color: #ff9900;
+  line-height: 1;
+}
+
+.step-card.step-default .step-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1e26;
+  margin-bottom: 8px;
+}
+
+.step-card.step-default .step-paragraph {
+  font-size: 13.5px;
+  line-height: 22px;
+  color: #6b7280;
+}
+
+.step-card.step-highlighted {
+  background: rgba(255, 153, 0, 1);
+  box-shadow: 0 15px 35px rgba(255, 153, 0, 0.22);
+}
+
+.step-card.step-highlighted .step-badge-number {
+  font-size: 48px;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1;
+}
+
+.step-card.step-highlighted .step-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.step-card.step-highlighted .step-paragraph {
+  font-size: 13.5px;
+  line-height: 22px;
+  color: #ffffff;
+  opacity: 0.95;
+}
+
+.step-text-content {
+  display: flex;
+  flex-direction: column;
+}
+

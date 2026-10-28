@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+.what-we-do-section {
+  position: relative;
+  width: 100%;
+  background-color: #17191d;
+  font-family: 'Manrope', sans-serif;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.what-we-do-container {
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  min-height: 959px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.we-do-left-column {
+  flex: 1;
+  max-width: 840px;
+  padding: 80px 0 80px 120px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.we-do-tagline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.we-do-tag-icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.we-do-tag-text {
+  font-size: 13px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 1.5px;
+}
+
+.we-do-heading {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+  margin-bottom: 40px;
+  max-width: 720px;
+}
+
+.we-do-heading .heading-light {
+  font-size: 48px;
+  font-weight: 300;
+  color: #ffffff;
+  letter-spacing: -0.5px;
+}
+
+.we-do-heading .heading-bold {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.8px;
+}
+
+
+.we-do-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 345px);
+  gap: 25px;
+  margin-bottom: 38px;
+}
+
+.we-do-card {
+  width: 345px;
+  height: 230.4px;
+  border-radius: 40px;
+  padding: 30px 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  backdrop-filter: blur(8px);
+  transition: transform 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+}
+
+
+.we-do-card.card-dark {
+  background-color: #212429;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+
+.we-do-card.card-highlight {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.08) 0%,
+    rgba(255, 255, 255, 0.04) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.we-do-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(255, 153, 0, 0.4);
+}
+
+.we-do-card-icon-box {
+  width: 44px;
+  height: 44px;
+  margin-bottom: 16px;
+}
+
+.we-do-card-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.we-do-card-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+  letter-spacing: -0.2px;
+}
+
+.we-do-card-desc {
+  font-size: 13.5px;
+  line-height: 22px;
+  color: #9299a5;
+  font-weight: 400;
+}
+
+.we-do-bottom-link {
+  font-size: 14.5px;
+  color: #8c939d;
+  font-weight: 500;
+}
+
+.quote-link {
+  color: #ff9900;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-left: 6px;
+  transition: color 0.2s ease;
+}
+
+.quote-link:hover {
+  color: #ffa726;
+}
+
+.we-do-floating-badge {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 126px;
+  height: 126px;
+  z-index: 10;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.we-do-floating-badge:hover {
+  transform: translate(-50%, -50%) scale(1.08);
+}
+
+.connect-badge-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.we-do-right-image-box {
+  width: 50%;
+  max-width: 960px;
+  height: 959px;
+  flex-shrink: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.we-do-spark-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* ---------------- SCREEN RESPONSIVENESS ---------------- */
+@media (max-width: 1550px) {
+  .we-do-left-column {
+    padding-left: 60px;
+  }
+  .we-do-cards-grid {
+    grid-template-columns: repeat(2, 300px);
+  }
+  .we-do-card {
+    width: 300px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .what-we-do-container {
+    flex-direction: column;
+    min-height: auto;
+  }
+  .we-do-left-column {
+    max-width: 100%;
+    padding: 60px 30px;
+  }
+  .we-do-floating-badge {
+    position: static;
+    transform: none;
+    margin: 20px auto;
+  }
+  .we-do-right-image-box {
+    width: 100%;
+    height: 500px;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .we-do-cards-grid {
+    grid-template-columns: 1fr;
+  }
+  .we-do-card {
+    width: 100%;
+  }
+  .we-do-heading .heading-light,
+  .we-do-heading .heading-bold {
+    font-size: 34px;
+  }
+}

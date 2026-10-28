@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+
+.ot-section-wrapper {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: 'Manrope', sans-serif;
+  background-color: #ffffff;
+  padding: 100px 0 120px 0;
+  box-sizing: border-box;
+}
+
+.ot-header-container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+
+.ot-header-left {
+  width: 610px;
+}
+
+
+.ot-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 16.8px;
+  margin-bottom: 15px;
+}
+
+.ot-badge-icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  display: block;
+}
+
+.ot-badge-text {
+  color: #222222;
+;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+
+.ot-main-title {
+  width: 610px;
+  height: 120px;
+  margin: 0;
+  color: #1a1e24;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -0.5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ot-title-light {
+  font-weight: 300;
+}
+
+.ot-title-bold {
+  font-weight: 700;
+}
+
+.ot-header-right {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.ot-all-members-btn {
+  width: 166.69px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid #ff9900;
+  border-radius: 10px;
+  background: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 24px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: all 0.25s ease;
+}
+
+.ot-all-members-btn:hover {
+  background: #fff8f0;
+}
+
+.ot-btn-text {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1a1e24;
+}
+
+.ot-btn-icon-wrapper {
+  width: 50px;
+  height: 50px;
+  background: #ff9900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.ot-btn-icon {
+  width: 24px;
+  height: 26px;
+  object-fit: contain;
+  display: block;
+}
+.ot-cards-container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 60px auto 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.ot-card {
+  width: 297.5px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.ot-image-box {
+  width: 297.5px;
+  height: 342.13px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #f4f5f7;
+}
+
+.ot-member-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 20px;
+  transition: transform 0.35s ease;
+}
+
+.ot-card:hover .ot-member-img {
+  transform: scale(1.03);
+}
+.ot-info-box {
+  width: 297.5px;
+  height: 56.19px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ot-member-name {
+  margin: 0 0 6px 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1e24;
+  line-height: 24px;
+}
+
+.ot-member-role {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #8c939d;
+  line-height: 20px;
+}
+

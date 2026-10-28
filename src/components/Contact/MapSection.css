@@ -1,0 +1,20 @@
+
+.factory-map-section {
+  position: relative;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1920 / 600; 
+  max-height: 600px;
+  background-color: #E5E3DF;
+  overflow: hidden;
+  display: block;
+}
+
+.factory-map-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+  display: block;
+  user-select: none;
+  pointer-events: none;
+}

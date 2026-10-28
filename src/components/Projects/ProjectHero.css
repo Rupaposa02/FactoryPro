@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+
+.project-hero-banner {
+  width: 100%;
+  max-width: 1920px;
+  height: 520.8px;
+  margin: 0 auto;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Manrope', sans-serif;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.project-hero-gradient-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0.19) 0.02%, #000000 100%);
+  z-index: 1;
+}
+
+.project-navbar {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  height: 101px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  box-sizing: border-box;
+}
+
+.project-navbar-inner {
+  width: 100%;
+  max-width: 1286px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.project-brand-logo {
+  width: 186px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.project-brand-logo img {
+  width: 186px;
+  height: 50px;
+  object-fit: contain;
+  display: block;
+}
+
+.project-nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.project-nav-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  transition: color 0.2s ease;
+  white-space: nowrap;
+}
+
+.project-nav-link:hover,
+.project-nav-link.active {
+  color: #ff9900;
+}
+
+.nav-dropdown-chevron {
+  transition: transform 0.2s ease;
+}
+
+.project-nav-link:hover .nav-dropdown-chevron {
+  transform: translateY(2px);
+}
+
+.project-nav-contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.project-phone-icon-wrap {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-phone-icon-wrap img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.project-phone-number {
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+}
+
+.project-nav-contact:hover .project-phone-number {
+  color: #ff9900;
+}
+.project-hero-content-frame {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1286px;
+  margin: 0 auto;
+  padding: 120px 20px 0 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-hero-title {
+  width: 350.94px;
+  height: 84px;
+  margin: 0 0 7px 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 300;
+  font-size: 70px;
+  line-height: 84px;
+  letter-spacing: -0.7px;
+  color: #ffffff;
+}
+
+.project-breadcrumb {
+  width: 128.28px;
+  height: 24.8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-sizing: border-box;
+}
+
+
+.project-breadcrumb-home {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.8px;
+  color: #ffffff;
+  text-decoration: none;
+  width: 43.3px;
+  transition: color 0.2s ease;
+}
+
+.project-breadcrumb-home:hover {
+  color: #ff9900;
+}
+.project-breadcrumb-dot {
+  color: #ff9900;
+  font-size: 16px;
+  line-height: 20.8px;
+  display: flex;
+  align-items: center;
+}
+
+.project-breadcrumb-active {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20.8px;
+  color: #ff9900;
+  width: 63.37px;
+}
+

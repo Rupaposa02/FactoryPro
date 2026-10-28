@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+.services-section-wrapper {
+  position: relative;
+  width: 100%;
+  font-family: 'Manrope', sans-serif;
+  box-sizing: border-box;
+  background-color: #FAFAFA;
+  padding-bottom: 90px; 
+}
+
+.services-banner-dark {
+  position: relative;
+  width: 100%;
+  height: 581.8px;
+  
+  background: #222222;
+  
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.services-bg-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.services-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 65%; 
+  opacity: 0.7;                
+  display: block;
+  filter: contrast(1.05) brightness(0.65);
+}
+
+.services-banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(18, 22, 26, 0.45);
+  mix-blend-mode: multiply;
+}
+
+.services-header-container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 50px 32px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  gap: 40px;
+}
+
+.services-header-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.services-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.services-badge-icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.services-badge span {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+}
+
+.services-main-title {
+  margin: 0;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 300;
+  color: #FFFFFF;
+  letter-spacing: -0.5px;
+}
+
+.services-main-title strong {
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.services-header-right {
+  max-width: 480px;
+  padding-top: 36px;
+}
+
+.services-lead-text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 400;
+}
+
+
+.services-floating-container {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  max-width: 1280px;
+  margin: -190px auto 0; 
+  padding: 0 32px;
+  box-sizing: border-box;
+}
+
+.services-cards-box {
+  width: 100%;
+  min-height: 360.75px;
+  background: #FFFFFF;
+  border-radius: 40px;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.06);
+  border: 1px solid #F0F0F0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 40px 30px;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.service-property-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border-right: 1px solid #F0F0F0;
+  box-sizing: border-box;
+}
+
+.service-property-card:last-child {
+  border-right: none;
+}
+
+.service-card-icon-box {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 8px;
+}
+
+.service-card-icon {
+  width: 60px;
+  height: 60px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.service-card-title {
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #18181B;
+}
+
+.service-card-btn {
+  width: 48px;
+  height: 36px;
+  border-radius: 8px;
+  border: none;
+  background-color: #F5F5F5;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; 
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+.service-card-btn span {
+  font-size: 16px;                   
+  line-height: 1;
+  color: #18181B;
+  display: inline-block;
+  transition: color 0.2s ease;
+  
+}
+
+.service-card-btn:hover {
+  
+  border-color: #FF9900;
+
+}
+
+.service-card-btn:hover span {
+  color: #ff9900;
+  transform: translate(2px);
+}
+

@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+.oa-section-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: 'Manrope', sans-serif;
+  box-sizing: border-box;
+  background-color: #f7f8fa;
+  padding-bottom: 120px;
+}
+
+.oa-bg-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 521.8px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.oa-bg-image {
+  left: 0;
+  top: 0;
+  width: 1920px;
+  height: 521.8px;
+  background-size: 1920px 521px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  
+}
+
+.oa-bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(14, 19, 24, 0.72) 0%, rgba(14, 19, 24, 0.7) 100%);
+}
+
+.oa-header-row {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 110px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.oa-header-left {
+  width: 610px;
+}
+
+.oa-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 16.8px;
+  margin-bottom: 15px;
+}
+
+.oa-badge-icon-img {
+  width: 16px;
+  height: 16px;
+  margin-top: 0.39px;
+  object-fit: contain;
+  display: block;
+}
+
+.oa-badge-text {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.oa-title {
+  width: 610px;
+  height: 120px;
+  margin: 0;
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -0.5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.oa-title-light {
+  font-weight: 300;
+}
+
+.oa-title-bold {
+  font-weight: 700;
+}
+
+.oa-header-right {
+  width: 531.73px;
+  height: 76.37px;
+  margin-top: 37px;
+}
+
+.oa-header-desc {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.oa-main-card {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  max-width: 1280px;
+  min-height: 604.34px;
+  margin: 68px auto 0 auto;
+  background: #ffffff;
+  border-radius: 40px;
+  box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.oa-tabs-bar {
+  width: 100%;
+  height: 101px;
+  display: flex;
+  background: #ffffff;
+  border-bottom: 1px solid #eef0f3;
+  box-sizing: border-box;
+}
+
+.oa-tab-btn {
+  height: 101px;
+  border: none;
+  border-bottom: 1px solid #eef0f3;
+  background: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.25s ease;
+}
+
+.oa-tab-mission {
+  width: 438.84px;
+}
+
+.oa-tab-vision {
+  width: 423.28px;
+}
+
+.oa-tab-value {
+  width: 417.89px;
+}
+
+.oa-tab-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.oa-tab-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  transition: filter 0.2s ease;
+}
+
+
+.oa-tab-text {
+  height: 27px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 600;
+  color: #1b1e22;
+  transition: color 0.2s ease;
+}
+
+.oa-tab-btn.active {
+  background: #ff9900;
+  border-bottom-color: #ff9900;
+}
+
+.oa-tab-btn.active .oa-tab-text {
+  color: #ffffff;
+}
+
+.oa-tab-btn.active .oa-tab-icon {
+  filter: brightness(0) invert(1);
+}
+
+.oa-card-body {
+  width: 100%;
+  padding: 60px 80px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.oa-body-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.oa-body-para {
+  width: 514.31px;
+  min-height: 76.38px;
+  margin: 0 0 43px 0;
+  font-size: 16px;
+  line-height: 27px;
+  color: #616770;
+  font-weight: 400;
+}
+.oa-checklist {
+  width: 545px;
+  height: 168.75px;
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+  margin-top: 25px;
+}
+
+.oa-check-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.oa-check-badge-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  flex-shrink: 0;
+  display: block;
+}
+.oa-check-label {
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1e24;
+  line-height: 24px;
+}
+
+
+.oa-body-right {
+  width: 545px;
+  height: 343.34px;
+  border-radius: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.oa-worker-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 40px;
+}
+

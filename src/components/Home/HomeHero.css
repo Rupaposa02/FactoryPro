@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+.hero-viewport {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  min-height: 800px;
+  max-height: 900px;
+  overflow: hidden;
+  font-family: 'Manrope', sans-serif;
+  background-color: #0b0e13;
+}
+
+.hero-bg-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.hero-bg-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 78% center;
+  display: block;
+}
+
+.hero-gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  pointer-events: none;
+}
+
+.hero-content-layer {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.hero-text-block {
+  max-width: 720px;
+  margin-top: 40px;
+}
+
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+  color: #ffffff;
+}
+
+.hero-title-light {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 300;
+  font-size: 70px;
+  line-height: 84px;
+  letter-spacing: -0.7px;
+  vertical-align: middle;
+}
+
+.hero-title-bold {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 84px;
+  letter-spacing: -0.7px;
+  vertical-align: middle;
+}
+
+.hero-description {
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+  color: #ffffff;
+  max-width: 530px;
+  margin-bottom: 36px;
+}
+
+.explore-more-box {
+  width: 181.42px;
+  height: 50px;
+  background-color: #ff9900;
+  border-radius: 10px;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(255, 153, 0, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.explore-pill {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 139.42px;
+  height: 46px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  color: #1a1d21;
+  letter-spacing: -0.2px;
+  white-space: nowrap;
+  box-sizing: border-box;
+  transition: color 0.2s ease;
+}
+
+.explore-arrow-icon {
+  position: absolute;
+  top: 12px;
+  left: 149.42px;
+  width: 24px;
+  height: 26px;
+  object-fit: contain;
+  display: block;
+  filter: brightness(0) invert(1);
+  transition: transform 0.2s ease;
+}
+
+.explore-more-box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(255, 153, 0, 0.35);
+}
+
+.explore-more-box:hover .explore-pill {
+  color: #ff9900;
+}
+
+.explore-more-box:hover .explore-arrow-icon {
+  transform: translate(2px, -2px);
+}
+
+.hero-bottom-badges {
+  position: absolute;
+  bottom: 45px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+  z-index: 10;
+  white-space: nowrap;
+}
+
+.badge-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.badge-icon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  display: block;
+}
+
+.badge-item span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #d1d5db;
+  letter-spacing: 0.2px;
+}
+

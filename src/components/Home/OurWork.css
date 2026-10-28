@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+.our-work-section {
+  width: 100%;
+  background-color: #ffffff;
+  font-family: 'Manrope', sans-serif;
+  padding: 100px 0 120px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.our-work-container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.our-work-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.our-work-header-left {
+  width: 610px;
+}
+
+.our-work-tagline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.our-work-tag-icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.our-work-tagline span {
+  font-size: 13px;
+  font-weight: 700;
+  color: #1f242e;
+  letter-spacing: 1.5px;
+}
+
+.our-work-heading {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.our-work-heading .heading-light {
+  font-size: 46px;
+  font-weight: 300;
+  color: #1a1e26;
+  letter-spacing: -0.5px;
+}
+
+.our-work-heading .heading-bold {
+  font-size: 46px;
+  font-weight: 700;
+  color: #1a1e26;
+  letter-spacing: -0.8px;
+}
+
+.our-work-header-right {
+  max-width: 480px;
+  padding-top: 36px;
+}
+
+.our-work-desc {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27.2px;
+  letter-spacing: 0%;
+  color: #6b7280;
+}
+
+
+.our-work-filter-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-bottom: 55px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  background: none;
+  border: none;
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: color 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.filter-btn:hover {
+  color: #ff9900;
+}
+
+.filter-btn.active {
+  color: #ff9900;
+  font-weight: 700;
+}
+
+.sustainability-dot {
+  font-size: 18px;
+  line-height: 0;
+  color: #374151;
+}
+
+.filter-slash {
+  color: #000000;
+  font-size: 14px;
+  user-select: none;
+}
+
+.our-work-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 625px);
+  column-gap: 30px;
+  row-gap: 40px;
+  justify-content: center;
+}
+
+.project-item-card {
+  width: 625px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.project-image-box {
+  position: relative;
+  width: 625px;
+  height: 440px;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s ease;
+}
+
+.project-item-card:hover .project-image {
+  transform: scale(1.03);
+}
+
+.project-category-badge {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  color: #ffffff;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+
+.project-card-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1e26;
+  margin-top: 18px;
+  text-align: center;
+  letter-spacing: -0.3px;
+}
+
