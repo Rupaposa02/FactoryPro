@@ -248,3 +248,115 @@
   height: 18px;
   object-fit: contain;
 }
+
+
+@media screen and (max-width: 1200px) {
+  .pricing-cards-section {
+    padding: 70px 20px 85px;
+  }
+  .pricing-cards-container,
+  .pricing-cards-wrapper {
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 16px;
+  }
+  .pricing-cards-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .pricing-card {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    padding: 36px 26px 30px;
+    border-radius: 32px;
+  }
+  .decor-one,
+  .decor-two,
+  .decor-three {
+    width: 110px;
+    height: 110px;
+  }
+  .pricing-bottom-guarantee {
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .pricing-cards-section {
+    padding: 60px 20px 75px;
+  }
+  .pricing-cards-container,
+  .pricing-cards-wrapper {
+    padding: 0 16px;
+  }
+  .pricing-cards-grid {
+    grid-template-columns: 1fr;
+    max-width: 440px;
+    margin: 0 auto 40px;
+    gap: 28px;
+  }
+  .pricing-card {
+    width: 100%;
+    height: auto;
+    min-height: auto;
+    padding: 36px 30px 32px;
+    border-radius: 28px;
+  }
+  .pricing-bottom-guarantee {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .pricing-cards-section {
+    padding: 45px 16px 60px;
+  }
+  .pricing-cards-container,
+  .pricing-cards-wrapper {
+    padding: 0;
+  }
+  .pricing-cards-grid {
+    max-width: 100%;
+    gap: 22px;
+    margin-bottom: 32px;
+  }
+  .pricing-card {
+    padding: 30px 22px 26px;
+    border-radius: 24px;
+  }
+  .price-amount {
+    font-size: 34px;
+  }
+  .plan-name {
+    font-size: 17px;
+    margin-bottom: 22px;
+  }
+  .plan-perks-list {
+    gap: 13px;
+    margin-bottom: 26px;
+  }
+  .perk-item span {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+  .decor-one,
+  .decor-two,
+  .decor-three {
+    width: 85px;
+    height: 85px;
+  }
+  .pricing-btn {
+    width: 100%;
+    height: 44px;
+  }
+  .pricing-bottom-guarantee {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    padding-left: 8px;
+  }
+  .guarantee-item {
+    font-size: 13px;
+  }
+}

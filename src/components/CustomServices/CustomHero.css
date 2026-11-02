@@ -189,3 +189,187 @@
   color: #FF9900;
   white-space: nowrap;
 }
+
+@media screen and (max-width: 1200px) {
+  .custom-hero-container {
+    padding: 0 24px;
+  }
+
+  .custom-navbar-menu {
+    margin-left: 40px;
+    gap: 18px;
+  }
+
+  .custom-navbar-menu .nav-link {
+    font-size: 14px;
+  }
+
+  .logo-asset {
+    height: 36px;
+  }
+
+  .phone-digits {
+    font-size: 15px;
+  }
+
+  .content-area {
+    margin-top: 100px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .custom-hero-h1 {
+    font-size: 46px;
+    line-height: 64px;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .custom-hero-frame {
+    height: auto;
+    min-height: 420px;
+    padding-bottom: 50px;
+  }
+
+  .custom-hero-header {
+    height: 80px;
+  }
+
+  .custom-hero-container {
+    padding: 0 20px;
+  }
+
+  .custom-navbar-menu {
+    margin-left: 20px;
+    gap: 12px;
+  }
+
+  .custom-navbar-menu .nav-link {
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .logo-asset {
+    height: 32px;
+  }
+
+  .phone-symbol {
+    width: 20px;
+    height: 20px;
+  }
+
+  .phone-digits {
+    font-size: 14px;
+  }
+
+  .content-area {
+    margin-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .custom-hero-h1 {
+    font-size: 38px;
+    line-height: 48px;
+    white-space: normal;
+  }
+
+  .custom-hero-breadcrumb {
+    flex-wrap: wrap;
+    height: auto;
+    gap: 6px;
+  }
+
+  .bc-link,
+  .bc-current {
+    font-size: 14px;
+    line-height: 22px;
+    white-space: normal;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .custom-hero-frame {
+    min-height: auto;
+    padding-bottom: 40px;
+  }
+
+  .custom-hero-header {
+    height: auto;
+    padding: 14px 0;
+  }
+
+  .header-inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .logo-asset {
+    height: 28px;
+  }
+
+  .custom-navbar-menu {
+    margin-left: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 14px;
+  }
+
+  .custom-navbar-menu .nav-link {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .custom-navbar-contact {
+    margin-left: 0;
+    margin-top: 2px;
+    gap: 8px;
+  }
+
+  .phone-symbol {
+    width: 18px;
+    height: 18px;
+  }
+
+  .phone-digits {
+    font-size: 13px;
+  }
+
+  .content-area {
+    margin-top: 36px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+  }
+
+  .custom-hero-h1 {
+    font-size: 28px;
+    line-height: 36px;
+    white-space: normal;
+    letter-spacing: -0.4px;
+    margin-bottom: 8px;
+  }
+
+  .custom-hero-breadcrumb {
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 4px 6px;
+  }
+
+  .bc-link,
+  .bc-current {
+    font-size: 13px;
+    line-height: 20px;
+    white-space: normal;
+  }
+
+  .bc-bullet {
+    font-size: 12px;
+    margin: 0 2px;
+  }
+}

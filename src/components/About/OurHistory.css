@@ -222,3 +222,280 @@
   display: block;
 }
 
+
+
+@media screen and (max-width: 1200px) {
+  .oh-section-wrapper {
+    padding: 80px 0 100px 0;
+  }
+
+  .oh-header-container {
+    padding: 0 24px;
+    gap: 30px;
+  }
+
+  .oh-header-left {
+    width: 50%;
+  }
+
+  .oh-main-title {
+    width: 100%;
+    height: auto;
+    font-size: 38px;
+    line-height: 48px;
+  }
+
+  .oh-header-right {
+    width: 48%;
+    height: auto;
+    margin-top: 24px;
+  }
+
+  .oh-header-desc {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .oh-main-box {
+    margin: 50px auto 0 auto;
+    padding: 0 24px;
+    height: auto;
+    gap: 30px;
+  }
+
+  .oh-timeline-col {
+    width: 280px;
+    height: auto;
+  }
+
+  .oh-timeline-tab {
+    height: 70px;
+    padding: 0 16px;
+  }
+
+  .oh-timeline-tab:last-child {
+    height: 70px;
+  }
+
+  .oh-tab-label {
+    font-size: 14.5px;
+  }
+
+  .oh-details-col {
+    width: calc(100% - 310px);
+    height: auto;
+    gap: 24px;
+  }
+
+  .oh-details-content {
+    width: 50%;
+    height: auto;
+  }
+
+  .oh-details-title {
+    width: 100%;
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .oh-details-desc {
+    width: 100%;
+    height: auto;
+    font-size: 14.5px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+
+  .oh-checklist {
+    width: 100%;
+    height: auto;
+    gap: 14px;
+  }
+
+  .oh-check-text {
+    font-size: 14.5px;
+  }
+
+  .oh-image-box {
+    width: 48%;
+    height: 350px;
+    border-radius: 30px;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .oh-section-wrapper {
+    padding: 70px 0 90px 0;
+  }
+
+  .oh-header-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 0 20px;
+  }
+
+  .oh-header-left,
+  .oh-header-right {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+  }
+
+  .oh-main-title {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .oh-main-box {
+    flex-direction: column;
+    margin: 40px auto 0 auto;
+    padding: 0 20px;
+    height: auto;
+    gap: 36px;
+  }
+
+  .oh-timeline-col {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    border-radius: 16px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .oh-timeline-col::-webkit-scrollbar {
+    display: none;
+  }
+
+  .oh-timeline-tab {
+    flex: 1;
+    min-width: 180px;
+    height: 60px;
+    border-bottom: none;
+    border-right: 1px solid #eef0f3;
+  }
+
+  .oh-timeline-tab:last-child {
+    border-right: none;
+    height: 60px;
+  }
+
+  .oh-details-col {
+    width: 100%;
+    height: auto;
+    gap: 30px;
+  }
+
+  .oh-details-content {
+    width: 50%;
+  }
+
+  .oh-details-title {
+    font-size: 30px;
+    line-height: 38px;
+    margin: 0 0 12px 0;
+  }
+
+  .oh-image-box {
+    width: 48%;
+    height: 320px;
+    border-radius: 28px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .oh-section-wrapper {
+    padding: 50px 0 70px 0;
+  }
+
+  .oh-header-container {
+    padding: 0 16px;
+  }
+
+  .oh-badge {
+    margin-bottom: 10px;
+  }
+
+  .oh-main-title {
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.3px;
+  }
+
+  .oh-header-desc {
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .oh-main-box {
+    margin: 30px auto 0 auto;
+    padding: 0 16px;
+    gap: 28px;
+  }
+
+  .oh-timeline-col {
+    border-radius: 12px;
+  }
+
+  .oh-timeline-tab {
+    min-width: 150px;
+    height: 50px;
+    padding: 0 12px;
+  }
+
+  .oh-timeline-tab:last-child {
+    height: 50px;
+  }
+
+  .oh-tab-label {
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .oh-details-col {
+    flex-direction: column-reverse;
+    gap: 24px;
+  }
+
+  .oh-details-content {
+    width: 100%;
+  }
+
+  .oh-details-title {
+    font-size: 26px;
+    line-height: 34px;
+    margin-bottom: 10px;
+  }
+
+  .oh-details-desc {
+    font-size: 13.5px;
+    line-height: 22px;
+    margin-bottom: 18px;
+  }
+
+  .oh-checklist {
+    gap: 12px;
+  }
+
+  .oh-check-item {
+    gap: 10px;
+  }
+
+  .oh-check-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .oh-check-text {
+    font-size: 14px;
+  }
+
+  .oh-image-box {
+    width: 100%;
+    height: 220px;
+    border-radius: 20px;
+  }
+}

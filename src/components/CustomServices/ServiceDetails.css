@@ -600,3 +600,387 @@
   font-weight: 400;
 }
 
+@media screen and (max-width: 1200px) {
+  .service-details-container {
+    gap: 32px;
+    padding: 0 20px;
+  }
+
+  .service-sidebar-frame {
+    width: 320px;
+    gap: 40px;
+  }
+
+  .service-category-box {
+    width: 100%;
+    height: auto;
+    padding-bottom: 24px;
+    position: static;
+  }
+
+  .service-category-header {
+    position: static;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .service-category-items {
+    position: static;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 0;
+  }
+
+  .category-row,
+  .category-link {
+    width: 100%;
+  }
+
+  .category-text {
+    width: auto !important;
+    font-size: 14.5px;
+  }
+
+  .need-help-box {
+    width: 100%;
+    height: auto;
+    min-height: 380px;
+  }
+
+  .need-help-content-layer {
+    position: relative;
+    padding: 30px 24px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .need-help-brand-logo,
+  .need-help-h3,
+  .need-help-desc,
+  .need-help-actions {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  .need-help-h3 {
+    margin: 16px 0 10px;
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .need-help-desc {
+    margin-bottom: 20px;
+  }
+
+  .service-main-content {
+    width: calc(100% - 352px);
+    flex-shrink: 1;
+  }
+
+  .service-main-banner-card {
+    width: 100%;
+    height: 420px;
+  }
+
+  .service-first-paragraph,
+  .service-second-paragraph,
+  .service-why-choose-block,
+  .why-choose-h2,
+  .why-choose-desc,
+  .service-planning-block,
+  .planning-h2,
+  .planning-desc,
+  .service-faq-block,
+  .faq-h2,
+  .faq-accordion-list,
+  .faq-item-card,
+  .planning-images-row {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .h2-light,
+  .h2-bold,
+  .plan-light,
+  .plan-bold,
+  .faq-light,
+  .faq-bold {
+    font-size: 38px;
+    line-height: 48px;
+  }
+
+  .why-choose-2x2-grid {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+  }
+
+  .why-choose-card {
+    width: 100%;
+    height: auto;
+    position: static;
+    padding-bottom: 24px;
+  }
+
+  .wc-icon-wrap,
+  .wc-card-title,
+  .wc-card-text {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  .wc-card-title {
+    margin: 14px 0 8px;
+    font-size: 17px;
+  }
+
+  .planning-properties-grid {
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 16px;
+  }
+
+  .planning-prop-item {
+    width: 100%;
+  }
+
+  .plan-img-card {
+    width: 50%;
+    height: 300px;
+  }
+
+  .faq-answer-drawer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .service-details-section {
+    padding: 70px 0 90px;
+  }
+
+  .service-details-container {
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 20px;
+  }
+
+  .service-sidebar-frame {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 36px;
+  }
+
+  .service-main-content {
+    width: 100%;
+  }
+
+  .service-main-banner-card {
+    height: 380px;
+    border-radius: 28px;
+    margin-bottom: 30px;
+  }
+
+  .service-first-paragraph,
+  .service-second-paragraph {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .service-second-paragraph {
+    margin-bottom: 40px;
+  }
+
+  .why-choose-h2,
+  .planning-h2,
+  .faq-h2 {
+    height: auto;
+    line-height: normal;
+  }
+
+  .h2-light,
+  .h2-bold,
+  .plan-light,
+  .plan-bold,
+  .faq-light,
+  .faq-bold {
+    font-size: 32px;
+  }
+
+  .why-choose-desc,
+  .planning-desc {
+    height: auto;
+    margin: 14px 0 28px;
+    font-size: 14.5px;
+  }
+
+  .plan-img-card {
+    height: 260px;
+    border-radius: 24px;
+  }
+
+  .planning-images-row {
+    gap: 16px;
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .service-details-section {
+    padding: 45px 0 60px;
+  }
+
+  .service-details-container {
+    padding: 0 16px;
+    gap: 36px;
+  }
+
+  .service-sidebar-frame {
+    max-width: 100%;
+    gap: 24px;
+  }
+
+  .service-category-header {
+    height: 52px;
+    padding: 0 16px;
+  }
+
+  .service-category-header h3 {
+    font-size: 17px;
+  }
+
+  .service-category-items {
+    padding: 14px 16px 0;
+  }
+
+  .category-text {
+    font-size: 13.5px;
+    white-space: normal;
+  }
+
+  .need-help-content-layer {
+    padding: 24px 18px;
+  }
+
+  .need-help-brand-logo {
+    width: 120px;
+    height: 40px;
+  }
+
+  .help-brand-img {
+    width: 120px;
+    height: 40px;
+  }
+
+  .need-help-h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .need-help-desc {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .contact-value {
+    font-size: 13.5px;
+  }
+
+  .service-main-banner-card {
+    height: 240px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+  }
+
+  .service-first-paragraph,
+  .service-second-paragraph {
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .h2-light,
+  .h2-bold,
+  .plan-light,
+  .plan-bold,
+  .faq-light,
+  .faq-bold {
+    font-size: 26px;
+    margin-left: 0;
+    display: inline;
+  }
+
+  .why-choose-2x2-grid {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+
+  .why-choose-card {
+    padding-bottom: 18px;
+  }
+
+  .wc-card-title {
+    font-size: 16px;
+  }
+
+  .wc-card-text {
+    font-size: 13.5px;
+    line-height: 22px;
+  }
+
+  .service-planning-block {
+    margin-top: 40px;
+  }
+
+  .planning-properties-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+
+  .planning-prop-text {
+    font-size: 14px;
+  }
+
+  .planning-images-row {
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 40px;
+  }
+
+  .plan-img-card {
+    width: 100%;
+    height: 220px;
+    border-radius: 20px;
+  }
+
+  .faq-h2 {
+    margin-bottom: 20px;
+  }
+
+  .faq-question-btn {
+    padding: 0 16px;
+    height: auto;
+    min-height: 52px;
+  }
+
+  .faq-q-text {
+    font-size: 14.5px;
+    padding: 10px 0;
+  }
+
+  .faq-answer-drawer {
+    padding: 8px 16px 16px;
+  }
+
+  .faq-a-text {
+    font-size: 13.5px;
+    line-height: 21px;
+  }
+}

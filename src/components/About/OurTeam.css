@@ -187,3 +187,177 @@
   line-height: 20px;
 }
 
+@media screen and (max-width: 1200px) {
+  .ot-section-wrapper {
+    padding: 80px 0 100px 0;
+  }
+
+  .ot-header-container {
+    padding: 0 24px;
+    gap: 30px;
+  }
+
+  .ot-header-left {
+    width: 60%;
+  }
+
+  .ot-main-title {
+    width: 100%;
+    height: auto;
+    font-size: 38px;
+    line-height: 48px;
+  }
+
+  .ot-cards-container {
+    margin-top: 50px;
+    padding: 0 24px;
+    gap: 20px;
+  }
+
+  .ot-card {
+    width: calc((100% - 60px) / 4);
+  }
+
+  .ot-image-box {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 297.5 / 342.13;
+  }
+
+  .ot-info-box {
+    width: 100%;
+  }
+
+  .ot-member-name {
+    font-size: 17px;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .ot-section-wrapper {
+    padding: 70px 0 90px 0;
+  }
+
+  .ot-header-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .ot-header-left {
+    width: 100%;
+  }
+
+  .ot-main-title {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .ot-header-right {
+    margin-bottom: 0;
+  }
+
+  .ot-cards-container {
+    margin-top: 40px;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 24px;
+    max-width: 640px;
+  }
+
+  .ot-card {
+    width: 100%;
+  }
+
+  .ot-image-box {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 297.5 / 342.13;
+    border-radius: 18px;
+  }
+
+  .ot-member-img {
+    border-radius: 18px;
+  }
+
+  .ot-info-box {
+    width: 100%;
+    height: auto;
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ot-section-wrapper {
+    padding: 50px 0 70px 0;
+  }
+
+  .ot-header-container {
+    padding: 0 16px;
+    gap: 16px;
+  }
+
+  .ot-badge {
+    margin-bottom: 10px;
+  }
+
+  .ot-main-title {
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.3px;
+  }
+
+  .ot-all-members-btn {
+    width: 150px;
+    height: 44px;
+    padding-left: 18px;
+  }
+
+  .ot-btn-text {
+    font-size: 14px;
+  }
+
+  .ot-btn-icon-wrapper {
+    width: 44px;
+    height: 44px;
+  }
+
+  .ot-btn-icon {
+    width: 20px;
+    height: 22px;
+  }
+
+  .ot-cards-container {
+    margin-top: 32px;
+    padding: 0 16px;
+    grid-template-columns: 1fr;
+    gap: 28px;
+    max-width: 340px;
+  }
+
+  .ot-image-box {
+    border-radius: 16px;
+  }
+
+  .ot-member-img {
+    border-radius: 16px;
+  }
+
+  .ot-info-box {
+    margin-top: 14px;
+  }
+
+  .ot-member-name {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 4px;
+  }
+
+  .ot-member-role {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}

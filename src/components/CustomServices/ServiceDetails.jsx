@@ -9,15 +9,12 @@ import phoneIcon from '../../assets/Phone.png';
 import mailIcon from '../../assets/FaqMail.png';
 import robotMainImg from '../../assets/CustomRobotHero.png';
 import featureIcon from '../../assets/FeatureIcon.png';
-
 import icon1 from '../../assets/KeyFeatureIcon1.png';
 import icon2 from '../../assets/EnhancedIcon2.png';
 import icon3 from '../../assets/KeyFeatureIcon2.png';
 import icon4 from '../../assets/KeyFeatureIcon3.png';
-
 import planImg1 from '../../assets/WeldingRobot1.png';
 import planImg2 from '../../assets/WeldingRobot2.png';
-import checkIcon from '../../assets/AboutLogo.png';
 import arrowDownIcon from '../../assets/ArrowDown.png';
 
 export default function ServiceDetails() {

@@ -158,3 +158,156 @@
   font-weight: 500;
   color: #FF9900;
 }
+
+
+@media screen and (max-width: 1200px) {
+  .navbar-inner {
+    padding: 0 20px;
+  }
+
+  .nav-menu {
+    gap: 20px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .contact-number {
+    font-size: 15px;
+  }
+
+  .nav-contact-block {
+    gap: 12px;
+  }
+
+  .hero-content-wrapper {
+    padding: 0 20px;
+    margin-top: 85px;
+  }
+
+  .hero-heading {
+    font-size: 46px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .ch-wrapper {
+    height: auto;
+    min-height: 420px;
+    padding-bottom: 50px;
+  }
+
+  .ch-navbar {
+    height: 80px;
+  }
+
+  .navbar-inner {
+    padding: 0 16px;
+  }
+
+  .navbar-logo img {
+    height: 32px;
+  }
+
+  .nav-menu {
+    gap: 14px;
+  }
+
+  .nav-link {
+    font-size: 13px;
+  }
+
+  .contact-number {
+    font-size: 14px;
+  }
+
+  .contact-symbol {
+    width: 20px;
+    height: 20px;
+  }
+
+  .hero-content-wrapper {
+    margin-top: 60px;
+    padding: 0 16px;
+  }
+
+  .hero-heading {
+    font-size: 38px;
+    margin-bottom: 12px;
+  }
+
+  .breadcrumb-home,
+  .breadcrumb-current {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ch-wrapper {
+    min-height: auto;
+    padding-bottom: 40px;
+  }
+
+  .ch-navbar {
+    height: auto;
+    padding: 14px 0;
+  }
+
+  .navbar-inner {
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 16px;
+  }
+
+  .navbar-logo img {
+    height: 28px;
+  }
+
+  .nav-menu {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    justify-content: center;
+  }
+
+  .nav-link {
+    font-size: 13px;
+    padding: 2px 0;
+  }
+
+  .nav-contact-block {
+    gap: 8px;
+    margin-top: 2px;
+  }
+
+  .contact-symbol {
+    width: 18px;
+    height: 18px;
+  }
+
+  .contact-number {
+    font-size: 13px;
+  }
+
+  .hero-content-wrapper {
+    margin-top: 36px;
+    padding: 0 16px;
+    text-align: center;
+  }
+
+  .hero-heading {
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 8px;
+  }
+
+  .hero-breadcrumb {
+    justify-content: center;
+  }
+
+  .breadcrumb-home,
+  .breadcrumb-current {
+    font-size: 13.5px;
+  }
+}

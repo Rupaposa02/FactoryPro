@@ -183,3 +183,136 @@
 }
 
 
+@media screen and (max-width: 1200px) {
+  .client-reviews-main-row {
+    gap: 40px;
+    margin-bottom: 60px;
+  }
+
+  .client-reviews-image-box {
+    width: 480px;
+    height: 520px;
+    border-radius: 32px;
+  }
+
+  .client-reviews-heading {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+
+  .client-reviews-quote {
+    font-size: 14.5px;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+
+  .testimonial-logos-strip {
+    height: 100px;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .client-reviews-section {
+    padding: 70px 0 0;
+  }
+
+  .client-reviews-main-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+    margin-bottom: 50px;
+  }
+
+  .client-reviews-image-box {
+    width: 100%;
+    max-width: 580px;
+    height: 440px;
+    margin: 0 auto;
+  }
+
+  .client-reviews-content-side {
+    max-width: 580px;
+    width: 100%;
+  }
+
+  .client-reviews-heading br {
+    display: none;
+  }
+
+  .testimonial-logos-strip {
+    height: 80px;
+    padding: 10px 0;
+  }
+
+  .client-logos-banner-img {
+    max-height: 60px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .client-reviews-section {
+    padding: 50px 0 0;
+  }
+
+  .client-reviews-container {
+    padding: 0 16px;
+  }
+
+  .client-reviews-main-row {
+    gap: 32px;
+    margin-bottom: 40px;
+  }
+
+  .client-reviews-image-box {
+    height: 300px;
+    border-radius: 24px;
+  }
+
+  .client-reviews-heading {
+    font-size: 28px;
+    line-height: 1.25;
+    margin-bottom: 16px;
+  }
+
+  .client-reviews-quote {
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 28px;
+  }
+
+  .client-reviews-footer-row {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .client-reviews-author-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+  }
+
+  .author-name {
+    font-size: 15px;
+  }
+
+  .author-role {
+    font-size: 12.5px;
+  }
+
+  .slider-arrow-btn {
+    width: 42px;
+    height: 42px;
+    font-size: 18px;
+  }
+
+  .testimonial-logos-strip {
+    height: 70px;
+    padding: 10px 0;
+  }
+
+  .client-logos-banner-img {
+    max-height: 45px;
+  }
+}

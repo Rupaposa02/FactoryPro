@@ -194,3 +194,172 @@
   width: 63.37px;
 }
 
+
+
+@media screen and (max-width: 1200px) {
+  .project-navbar-inner {
+    padding: 0 20px;
+  }
+
+  .project-nav-menu {
+    gap: 18px;
+  }
+
+  .project-nav-link {
+    font-size: 14px;
+    gap: 5px;
+  }
+
+  .project-brand-logo {
+    width: 155px;
+    height: 42px;
+  }
+
+  .project-brand-logo img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .project-phone-number {
+    font-size: 14px;
+  }
+
+  .project-hero-content-frame {
+    padding: 95px 20px 0 20px;
+  }
+
+  .project-hero-title {
+    width: auto;
+    height: auto;
+    font-size: 56px;
+    line-height: 68px;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .project-hero-banner {
+    height: auto;
+    min-height: 420px;
+    padding-bottom: 50px;
+  }
+
+  .project-navbar {
+    height: 80px;
+  }
+
+  .project-navbar-inner {
+    padding: 0 16px;
+  }
+
+  .project-brand-logo {
+    width: 140px;
+    height: 38px;
+  }
+
+  .project-nav-menu {
+    gap: 12px;
+  }
+
+  .project-nav-link {
+    font-size: 13px;
+    gap: 4px;
+  }
+
+  .project-phone-number {
+    font-size: 13px;
+  }
+
+  .project-hero-content-frame {
+    padding: 70px 16px 0 16px;
+  }
+
+  .project-hero-title {
+    width: auto;
+    height: auto;
+    font-size: 44px;
+    line-height: 54px;
+  }
+
+  .project-breadcrumb {
+    width: auto;
+    height: auto;
+  }
+
+  .project-breadcrumb-home,
+  .project-breadcrumb-active,
+  .project-breadcrumb-dot {
+    width: auto;
+    font-size: 15px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .project-hero-banner {
+    min-height: auto;
+    padding-bottom: 45px;
+  }
+  .project-navbar {
+    height: auto;
+    padding: 14px 0;
+  }
+  .project-navbar-inner {
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 16px;
+  }
+  .project-brand-logo {
+    width: 130px;
+    height: 35px;
+  }
+  .project-nav-menu {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    justify-content: center;
+  }
+  .project-nav-link {
+    font-size: 13px;
+    padding: 2px 0;
+  }
+  .project-nav-contact {
+    display: inline-flex;
+    margin-top: 2px;
+  }
+  .project-phone-icon-wrap {
+    width: 24px;
+    height: 24px;
+  }
+  .project-phone-icon-wrap img {
+    width: 18px;
+    height: 18px;
+  }
+  .project-phone-number {
+    font-size: 13px;
+  }
+  .project-hero-content-frame {
+    padding: 40px 16px 0 16px;
+    align-items: center;
+    text-align: center;
+  }
+  .project-hero-title {
+    width: auto;
+    height: auto;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.4px;
+    margin-bottom: 8px;
+  }
+  .project-breadcrumb {
+    width: auto;
+    height: auto;
+    justify-content: center;
+  }
+  .project-breadcrumb-home,
+  .project-breadcrumb-active,
+  .project-breadcrumb-dot {
+    width: auto;
+    font-size: 14px;
+  }
+}

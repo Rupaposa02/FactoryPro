@@ -172,3 +172,155 @@
 }
 
 
+@media screen and (max-width: 1200px) {
+  .about-hero-navbar-container {
+    padding: 0 20px;
+  }
+
+  .navbar-menu {
+    gap: 18px;
+  }
+
+  .nav-item {
+    font-size: 14px;
+    gap: 3px;
+  }
+
+  .navbar-logo .logo-img {
+    height: 42px;
+  }
+
+  .phone-text {
+    font-size: 14px;
+  }
+
+  .about-hero-content-area {
+    padding: 0 20px;
+  }
+
+  .title-light,
+  .title-bold {
+    font-size: 46px;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .about-hero-section {
+    height: auto;
+    min-height: 380px;
+    padding-bottom: 45px;
+  }
+
+  .about-hero-navbar-wrapper {
+    height: 80px;
+  }
+
+  .about-hero-navbar-container {
+    padding: 0 16px;
+  }
+
+  .navbar-logo .logo-img {
+    height: 36px;
+  }
+
+  .navbar-menu {
+    gap: 12px;
+  }
+
+  .nav-item {
+    font-size: 13px;
+  }
+
+  .phone-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .phone-text {
+    font-size: 13px;
+  }
+
+  .about-hero-content-area {
+    padding: 40px 16px 0;
+  }
+
+  .title-light,
+  .title-bold {
+    font-size: 38px;
+  }
+
+  .about-hero-breadcrumb {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .about-hero-section {
+    min-height: auto;
+    padding-bottom: 35px;
+  }
+
+  .about-hero-navbar-wrapper {
+    height: auto;
+    padding: 14px 0;
+  }
+
+  .about-hero-navbar-container {
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 16px;
+  }
+
+  .navbar-logo .logo-img {
+    height: 32px;
+  }
+
+  .navbar-menu {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    justify-content: center;
+  }
+
+  .nav-item {
+    font-size: 13px;
+    padding: 2px 0;
+  }
+
+  .navbar-phone {
+    margin-top: 2px;
+    gap: 6px;
+  }
+
+  .phone-icon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .phone-text {
+    font-size: 13px;
+  }
+
+  .about-hero-content-area {
+    padding: 30px 16px 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-hero-title {
+    margin-bottom: 8px;
+  }
+
+  .title-light,
+  .title-bold {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .about-hero-breadcrumb {
+    justify-content: center;
+    font-size: 13.5px;
+  }
+}

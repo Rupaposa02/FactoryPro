@@ -179,3 +179,136 @@
   flex-direction: column;
 }
 
+
+
+@media screen and (max-width: 1200px) {
+  .process-header-left {
+    width: 50%;
+  }
+
+  .process-header-right {
+    max-width: 45%;
+    padding-top: 24px;
+  }
+
+  .process-heading {
+    font-size: 38px;
+  }
+
+  .process-body-row {
+    gap: 30px;
+  }
+
+  .process-image-box {
+    width: 480px;
+    height: 480px;
+  }
+
+  .step-card {
+    width: 100%;
+    padding: 0 30px;
+    gap: 20px;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .our-process-section {
+    padding: 70px 0 90px;
+  }
+
+  .process-header-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+
+  .process-header-left,
+  .process-header-right {
+    width: 100%;
+    max-width: 100%;
+    padding-top: 0;
+  }
+
+  .process-heading br {
+    display: none;
+  }
+
+  .process-body-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .process-image-box {
+    width: 100%;
+    max-width: 625px;
+    height: 420px;
+  }
+
+  .process-steps-list {
+    width: 100%;
+    max-width: 625px;
+  }
+
+  .step-card {
+    width: 100%;
+    height: auto;
+    min-height: 120px;
+    padding: 24px 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .our-process-section {
+    padding: 50px 0 70px;
+  }
+
+  .our-process-container {
+    padding: 0 16px;
+  }
+
+  .process-heading {
+    font-size: 28px;
+    line-height: 1.25;
+  }
+
+  .process-desc {
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .process-image-box {
+    height: 280px;
+    border-radius: 24px;
+  }
+
+  .process-steps-list {
+    gap: 16px;
+  }
+
+  .step-card {
+    border-radius: 24px;
+    padding: 20px 20px;
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  .step-card.step-default .step-badge-number,
+  .step-card.step-highlighted .step-badge-number {
+    font-size: 34px;
+  }
+
+  .step-card.step-default .step-title,
+  .step-card.step-highlighted .step-title {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+
+  .step-card.step-default .step-paragraph,
+  .step-card.step-highlighted .step-paragraph {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}

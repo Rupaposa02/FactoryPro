@@ -190,3 +190,133 @@
   letter-spacing: 0.2px;
 }
 
+
+@media screen and (max-width: 1200px) {
+  .hero-viewport {
+    min-height: 720px;
+    max-height: 800px;
+  }
+
+  .hero-content-layer {
+    min-height: 720px;
+    padding: 0 40px 110px;
+  }
+
+  .hero-title-light,
+  .hero-title-bold {
+    font-size: 56px;
+    line-height: 68px;
+  }
+
+  .hero-description {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+
+  .hero-bottom-badges {
+    width: calc(100% - 80px);
+    gap: 20px;
+    bottom: 35px;
+  }
+
+  .badge-item span {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hero-viewport {
+    height: auto;
+    min-height: unset;
+    max-height: none;
+    padding: 100px 0 60px;
+  }
+
+  .hero-bg-photo {
+    object-position: center;
+  }
+
+  .hero-gradient-overlay {
+    background: linear-gradient(
+      180deg,
+      rgba(11, 14, 19, 0.75) 0%,
+      rgba(11, 14, 19, 0.9) 100%
+    );
+  }
+
+  .hero-content-layer {
+    min-height: unset;
+    padding: 0 30px;
+  }
+
+  .hero-text-block {
+    margin-top: 0;
+    max-width: 100%;
+  }
+
+  .hero-title-light,
+  .hero-title-bold {
+    font-size: 46px;
+    line-height: 56px;
+  }
+
+
+  .hero-bottom-badges {
+    position: static;
+    transform: none;
+    width: 100%;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 24px 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero-viewport {
+    padding: 80px 0 50px;
+  }
+
+  .hero-content-layer {
+    padding: 0 20px;
+  }
+
+  .hero-title-light,
+  .hero-title-bold {
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: -0.4px;
+  }
+
+  .hero-description {
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 28px;
+  }
+
+  .explore-more-box {
+    margin-bottom: 10px;
+  }
+
+  .hero-bottom-badges {
+    margin-top: 45px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .badge-item {
+    gap: 8px;
+  }
+
+  .badge-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .badge-item span {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+}

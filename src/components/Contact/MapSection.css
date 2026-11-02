@@ -18,3 +18,56 @@
   user-select: none;
   pointer-events: none;
 }
+
+
+@media screen and (max-width: 1200px) {
+  .factory-map-section {
+    aspect-ratio: 16 / 6;
+    max-height: 480px;
+  }
+
+  .factory-map-image,
+  .factory-map-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+    object-fit: cover;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .factory-map-section {
+    aspect-ratio: 16 / 7;
+    height: 380px;
+    max-height: 380px;
+  }
+
+  .factory-map-image,
+  .factory-map-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+    object-fit: cover;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .factory-map-section {
+    aspect-ratio: auto;
+    height: 280px;
+    max-height: 280px;
+  }
+
+  .factory-map-image,
+  .factory-map-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+    object-fit: cover;
+  }
+}

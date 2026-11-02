@@ -286,3 +286,183 @@
   background-color: #FF9900;
   color: #FFFFFF;
 }
+
+
+@media screen and (max-width: 1200px) {
+  .contact-form-container {
+    gap: 40px;
+    padding: 0 24px;
+  }
+
+  .cfs-left-column {
+    width: 420px;
+  }
+
+  .cfs-heading {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .cfs-description {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .cfs-info-list {
+    width: 100%;
+  }
+
+  .cfs-right-card {
+    width: 100%;
+    padding: 40px 32px;
+  }
+
+  .cfs-card-title {
+    font-size: 38px;
+    line-height: 48px;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .contact-form-section {
+    padding: 70px 0 90px;
+    min-height: auto;
+  }
+
+  .contact-form-container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 50px;
+    padding: 0 24px;
+  }
+
+  .cfs-left-column {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .cfs-heading {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .cfs-description {
+    max-width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .cfs-right-card {
+    width: 100%;
+    padding: 36px 28px;
+    border-radius: 30px;
+  }
+
+  .cfs-card-title {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 22px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .contact-form-section {
+    padding: 50px 0 70px;
+  }
+
+  .contact-form-container {
+    padding: 0 16px;
+    gap: 36px;
+  }
+
+  .cfs-heading {
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.3px;
+  }
+
+  .cfs-description {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .cfs-info-item {
+    height: auto;
+    padding: 14px 0;
+  }
+
+  .cfs-info-item.address-item {
+    height: auto;
+  }
+
+  .cfs-icon-box {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+  }
+
+  .cfs-icon-box img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .cfs-info-meta {
+    margin-left: 14px;
+  }
+
+  .cfs-meta-title {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .cfs-meta-value {
+    font-size: 13.5px;
+    line-height: 20px;
+  }
+
+  .cfs-right-card {
+    padding: 28px 18px;
+    border-radius: 24px;
+  }
+
+  .cfs-card-title {
+    font-size: 26px;
+    line-height: 34px;
+    margin-bottom: 18px;
+  }
+
+  .cfs-form {
+    gap: 14px;
+  }
+
+  .cfs-form-row-split {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .cfs-form-row-split input,
+  .cfs-form-row input {
+    height: 50px;
+    font-size: 13.5px;
+    padding: 0 16px;
+  }
+
+  .cfs-form-row textarea {
+    height: 110px;
+    font-size: 13.5px;
+    padding: 14px 16px;
+  }
+
+  .cfs-submit-btn {
+    width: 100%;
+    height: 48px;
+    font-size: 14px;
+  }
+
+  .cfs-bg-sketch {
+    width: 100%;
+    height: 200px;
+  }
+}

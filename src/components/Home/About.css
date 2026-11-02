@@ -299,3 +299,133 @@
   color: #4b5563;
 }
 
+
+@media screen and (max-width: 1200px) {
+  .about-content-wrapper {
+    gap: 40px;
+    padding: 0 30px;
+  }
+  .about-visuals-col {
+    width: 480px;
+    height: 520px;
+  }
+  .about-top-thumb {
+    width: 220px;
+    height: 150px;
+    border-radius: 24px;
+  }
+  .about-exp-badge {
+    left: 240px;
+    top: 30px;
+  }
+  .exp-num {
+    font-size: 44px;
+  }
+  .about-main-thumb {
+    left: 100px;
+    width: 320px;
+    height: 390px;
+    border-radius: 28px;
+  }
+  .about-info-col h2.about-title span.title-light,
+  .about-info-col h2.about-title span.title-bold {
+    font-size: 40px !important;
+    line-height: 50px !important;
+  }
+  .about-rating-box {
+    width: 230px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .about-section-container {
+    padding: 70px 0;
+  }
+  .about-content-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 0 24px;
+  }
+  .about-visuals-col {
+    margin: 0 auto;
+  }
+  .about-info-col {
+    max-width: 100%;
+    width: 100%;
+  }
+  .about-info-col h2.about-title {
+    max-width: 100% !important;
+  }
+  .about-desc {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-section-container {
+    padding: 50px 0;
+  }
+  .about-content-wrapper {
+    padding: 0 16px;
+    gap: 40px;
+  }
+  .about-visuals-col {
+    width: 100%;
+    max-width: 340px;
+    height: 390px;
+  }
+  .about-top-thumb {
+    width: 155px;
+    height: 110px;
+    border-radius: 18px;
+  }
+  .about-exp-badge {
+    left: 170px;
+    top: 15px;
+    gap: 8px;
+  }
+  .exp-num {
+    font-size: 34px;
+  }
+  .exp-text {
+    font-size: 11.5px;
+  }
+  .about-main-thumb {
+    left: 45px;
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .about-info-col h2.about-title span.title-light,
+  .about-info-col h2.about-title span.title-bold {
+    font-size: 30px !important;
+    line-height: 38px !important;
+  }
+  .about-desc {
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 22px;
+  }
+  .about-bottom-flex {
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+  }
+  .about-features-block {
+    width: 100%;
+  }
+  .about-btn {
+    margin-top: 15px;
+  }
+  .about-rating-box {
+    width: 100%;
+    height: 130px;
+    border-radius: 18px;
+  }
+  .about-bg-sketch {
+    width: 100%;
+    height: 180px;
+  }
+}
